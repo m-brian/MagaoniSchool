@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import fontawesome-->
+    <script src="https://kit.fontawesome.com/dce715c29a.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="other/magaoni.css">
+    <title>Magaoni School</title>
+    <link rel="shortcut Icon" type="image" href="img/IMG-20201222-WA0006.jpg" class="responsive-img circle">
+</head>
+<body>
+    <header>
+        <!--nav bar and everything with it-->
+ <nav class="nav-wrapper orange darken-2 scrollspy" id="navbar">
+     <div class="container-fluid">
+            <a href="#" class="brand-logo center " id="Magaoni">Magaoni</a>        
+            <a href="#" class="sidenav-trigger" data-target="links">
+                <i class="material-icons white-text">menu</i>
+            </a>   
+      </div>
+      <ul class="right hide-on-small-only">
+        <li><a href="#" class="transparent"> 
+            <i class="fab fa-instagram red-text darken-1  wave-effect lighten"></i>
+        </a>
+        </li>
+        <li><a href="#" class="transparent"> 
+            <i class="fab fa-facebook  blue-text accent-4"></i>
+        </a>
+        </li>
+        <li><a href="#" class="transparent"> 
+            <i class="fab fa-twitter light-blue-text accent-3"></i>
+        </a>
+        </li>
+        <li><a href="#contact us" class="transparent scrollspy"> 
+            <i class="fas fa-phone-alt black-text"></i>
+        </a>
+        </li>
+      </ul>
+     </div>
+ </nav> 
+        <ul class="sidenav  green accent-2" id="links">
+             <li><a href="other/about.html">About</a></li>
+             <li><a href="other/news.html" class="#">News</a></li>
+             <li><a href="#contact us">contact us</a></li>
+        </ul>
+ </header>
+
+
+<!--Actual body-->
+
+<div class="main-body">
+    <!--carosel for smaller devices-->
+    <section class="carossel section">
+        <div class="hide-on-med-and-up">
+            <div class="container-fluid" style="cursor: none">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="mySlides fade">
+                            <img src="img/IMG-20201222-WA0005.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                        </div>
+                          
+                        <div class="mySlides fade">
+                            <img src="img/IMG-20201222-WA0008.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                        </div>
+                          
+                        <div class="mySlides fade">
+                             <img src="img/IMG-20201222-WA0011.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <br/>
+              <!--dots below the photos-->
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+        </div>
+    </section>
+<!--slideshow for larger devices-->
+    <section>
+       <div class="hide-on-small-only">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col s12 m12 l9">
+                    <div class="mySlides1 fade">
+                        <img src="img/IMG-20201222-WA0005.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                    </div>
+                      
+                    <div class="mySlides1 fade">
+                        <img src="img/IMG-20201222-WA0008.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                    </div>
+                      
+                    <div class="mySlides1 fade">
+                         <img src="img/IMG-20201222-WA0011.jpg" class="responsive" style="height: 50%; width: 100%;" onContextMenu="return false;">
+                    </div>
+                    <br/>
+              <!--dots below the photos-->
+              <div style="text-align:center;">
+                <span class="dot-1"></span> 
+                <span class="dot-1"></span> 
+                <span class="dot-1"></span> 
+              </div>
+              
+                </div>
+                <div class="col s6 m6 l3">
+                    <a href="#history" class=" modal-trigger">
+                        <img src="img/history.jpg" class="responsive-img" onContextMenu="return false;">
+                    </a>
+                    <div class="modal" id="history">
+                        <div class="modal-content">
+                            <h3 class="center bold">History of the school</h3>
+                            <img src="img/IMG-20201222-WA0010.jpg" alt="image" class="responsive-img">
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi incidunt ipsa cum quisquam maiores tenetur neque rem hi
+                                c ad provident illo esse, quo sint reiciendis. Facere corrupti iure quisquam?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close btn blue waves-effect waves-light">agree & close</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col s6 m6 l3 offset m1">
+                <a href="other/about.html"> 
+                    <img src="img/document attached.svg" alt="" class="responsive-img">
+                </a>
+                </div>
+                <div class="col s6 m6 l3">
+                <a href="other/news.html">
+                    <img src="img/IMG-20201222-WA0011.jpg" class="responsive-img " onContextMenu="return false;">
+                </a>
+                </div>             
+            </div> 
+           </div>
+       </div>
+            
+    </section>
+
+ 
+    
+    
+</div>
+
+
+
+
+
+<!--footer-->
+<footer class="page-footer grey lighten-2 scrollspy" id="contact us" style="background-image: url(img/contact\ us.svg); ">
+        <div class="container">
+            <div class="row">               
+            <div class="col s12 m4 l5 ">
+                <h5 class="flow-text">Contact us</h5>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="white-text">magaonischool@gmail.com
+                <p style="font-size: 15px;">+254792810299</p>                  
+            </div>
+            <div class="col s12 m4 l5 offset m4 l2">
+                <div class="btn-floating btn-small transparent right scrollspy wave-effect wave-darken">
+                    <a href="#navbar" class="fas fa-arrow-up black-text"> </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="footer-copyright grey  ">
+        <div class="container white-text ">&copy; magaonishool</div>
+    </div>
+
+</footer>
+
+       
+ 
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
+          $('.scrollspy').scrollSpy();
+          $('.modal').modal();
+      })
+   </script> 
+
+    <!--javascript for the slideshow-->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+        </script>
+
+        <!--javascript for larger screens slideshow-->
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides1");
+              var dots = document.getElementsByClassName("dot-1");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); // Change image every 4 seconds
+            }
+            </script>
+
+
+</body>
+</html>
